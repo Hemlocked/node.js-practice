@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <title>BBS</title>
+    <meta charste = "utf-8">
+</head>
+<body>
+     <form method= "post">
+     <input type="test" name="name">
+     <input type="submit" value="Post!">
+
+     <ul>
+         <% for (var i = 0; i < posts.lenght; i++ ) { %>
+         <li><%= posts[i] %></li>
+         <% } %>
+     </ul>
+
+</body>
+</html>
