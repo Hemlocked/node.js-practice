@@ -2,15 +2,16 @@
 <html lang="ja">
 <head>
     <title>BBS</title>
-    <meta charste = "utf-8">
+    <meta charset = "utf-8">
 </head>
+
 <body>
      <form method= "post">
-     <input type="test" name="name">
+     <input type="text" name="name">
      <input type="submit" value="Post!">
 
      <ul>
-         <% for (var i = 0; i < posts.lenght; i++ ) { %>
+         <% for (var i = 0; i < posts.length; i++ ) { %>
          <li><%= posts[i] %></li>
          <% } %>
      </ul>
